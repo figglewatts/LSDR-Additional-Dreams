@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888a1bb35f1b4246857881a3a7b3a7cd, type: 3}
+  m_Name: UVFootstepIndex
+  m_EditorClassIdentifier: 
+  Fallback:
+    Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+    Pitch: 1
+  Index:
+    _keys:
+    - x: 0
+      y: 0
+      width: 128
+      height: 128
+    - x: 128
+      y: 0
+      width: 128
+      height: 128
+    - x: 256
+      y: 0
+      width: 128
+      height: 128
+    - x: 384
+      y: 0
+      width: 128
+      height: 128
+    - x: 512
+      y: 0
+      width: 128
+      height: 128
+    - x: 640
+      y: 0
+      width: 128
+      height: 128
+    - x: 768
+      y: 0
+      width: 128
+      height: 128
+    - x: 896
+      y: 0
+      width: 128
+      height: 128
+    - x: 0
+      y: 128
+      width: 128
+      height: 128
+    - x: 128
+      y: 128
+      width: 128
+      height: 128
+    - x: 256
+      y: 128
+      width: 128
+      height: 128
+    - x: 384
+      y: 128
+      width: 128
+      height: 128
+    - x: 512
+      y: 128
+      width: 128
+      height: 128
+    - x: 640
+      y: 128
+      width: 128
+      height: 128
+    - x: 768
+      y: 128
+      width: 128
+      height: 128
+    - x: 896
+      y: 128
+      width: 128
+      height: 128
+    - x: 0
+      y: 256
+      width: 128
+      height: 128
+    - x: 128
+      y: 256
+      width: 128
+      height: 128
+    - x: 256
+      y: 256
+      width: 128
+      height: 128
+    - x: 384
+      y: 256
+      width: 128
+      height: 128
+    - x: 512
+      y: 256
+      width: 128
+      height: 128
+    - x: 640
+      y: 256
+      width: 128
+      height: 128
+    - x: 768
+      y: 256
+      width: 128
+      height: 128
+    - x: 896
+      y: 256
+      width: 128
+      height: 128
+    - x: 0
+      y: 384
+      width: 128
+      height: 128
+    - x: 128
+      y: 384
+      width: 128
+      height: 128
+    - x: 256
+      y: 384
+      width: 128
+      height: 128
+    - x: 384
+      y: 384
+      width: 128
+      height: 128
+    - x: 512
+      y: 384
+      width: 128
+      height: 128
+    - x: 640
+      y: 384
+      width: 128
+      height: 128
+    - x: 768
+      y: 384
+      width: 128
+      height: 128
+    - x: 896
+      y: 384
+      width: 128
+      height: 128
+    - x: 0
+      y: 512
+      width: 128
+      height: 128
+    - x: 128
+      y: 512
+      width: 128
+      height: 128
+    - x: 256
+      y: 512
+      width: 128
+      height: 128
+    - x: 384
+      y: 512
+      width: 128
+      height: 128
+    - x: 512
+      y: 512
+      width: 128
+      height: 128
+    - x: 640
+      y: 512
+      width: 128
+      height: 128
+    - x: 768
+      y: 512
+      width: 128
+      height: 128
+    - x: 0
+      y: 640
+      width: 128
+      height: 128
+    - x: 128
+      y: 640
+      width: 128
+      height: 128
+    - x: 256
+      y: 640
+      width: 128
+      height: 128
+    - x: 384
+      y: 640
+      width: 128
+      height: 128
+    - x: 512
+      y: 640
+      width: 128
+      height: 128
+    _values:
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 22010710ac989244aa96dc374f933f90, type: 3}
+      Pitch: 0.25
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+      Pitch: 0.25
+    - Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 22010710ac989244aa96dc374f933f90, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 23946efb68f4c9648b5f4647a493a6db, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 23946efb68f4c9648b5f4647a493a6db, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 23946efb68f4c9648b5f4647a493a6db, type: 3}
+      Pitch: 0.125
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 22010710ac989244aa96dc374f933f90, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 22010710ac989244aa96dc374f933f90, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 23946efb68f4c9648b5f4647a493a6db, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 23946efb68f4c9648b5f4647a493a6db, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 23946efb68f4c9648b5f4647a493a6db, type: 3}
+      Pitch: 0.5
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 7868108842f83e04196365db229b4b0e, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 7868108842f83e04196365db229b4b0e, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 9ca93d3d824a42743883a65c26e3daa9, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9ca93d3d824a42743883a65c26e3daa9, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 9ca93d3d824a42743883a65c26e3daa9, type: 3}
+      Pitch: 1
+    - Sound: {fileID: 8300000, guid: 64bf5aaad0fd73d45be52293b03ba527, type: 3}
+      Pitch: 4
+    - Sound: {fileID: 8300000, guid: 64bf5aaad0fd73d45be52293b03ba527, type: 3}
+      Pitch: 4
+    - Sound: {fileID: 8300000, guid: 64bf5aaad0fd73d45be52293b03ba527, type: 3}
+      Pitch: 4
+    - Sound: {fileID: 8300000, guid: 64bf5aaad0fd73d45be52293b03ba527, type: 3}
+      Pitch: 4
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 9175395223f4eab4695a6eeee719fd48, type: 3}
+      Pitch: 2
+    - Sound: {fileID: 8300000, guid: 7868108842f83e04196365db229b4b0e, type: 3}
+      Pitch: 1
+    _tempKey:
+      x: 512
+      y: 640
+      width: 128
+      height: 128
+    _tempValue:
+      Sound: {fileID: 8300000, guid: 8c832fbed48bcb14fb0fa47444e96887, type: 3}
+      Pitch: 1
+  AtlasDimensions: {x: 1024, y: 1024}

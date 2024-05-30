@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d360f940c3f49d49a2ffefbfb8a42b4, type: 3}
+  m_Name: AdditionalDreams
+  m_EditorClassIdentifier: 
+  Name: Additional Dreams
+  Author: Figglewatts
+  Dreams:
+  - {fileID: 11400000, guid: 4f27ef3ad9eca5741bdcd038197097ff, type: 2}
+  - {fileID: 11400000, guid: ff610ce2bb2ae3f4992ffb82480e54c2, type: 2}
+  - {fileID: 11400000, guid: 68b6bb93104efd64db832959b2c1c42a, type: 2}
+  - {fileID: 11400000, guid: c4234e96abc3d8846a4ca17d7111054b, type: 2}
+  - {fileID: 11400000, guid: 22f555f901ab55c4e8dd2e189891b47e, type: 2}
+  - {fileID: 11400000, guid: 3d265422b56f29b42bb8a47aab69b07a, type: 2}
+  - {fileID: 11400000, guid: 2312e9a6ca1ae2e408839e421b7e934e, type: 2}
+  - {fileID: 11400000, guid: 1e57473516ee0e24ebfc68071a72bb34, type: 2}
+  - {fileID: 11400000, guid: 4a63b6b753e8e6242acfdd4ef421a74e, type: 2}
+  - {fileID: 11400000, guid: 888316985d86c4f4ba2013054511d20e, type: 2}
+  - {fileID: 11400000, guid: 7d2f1cccc0ccae646a52b0fd5c4f26f3, type: 2}
+  - {fileID: 11400000, guid: 80d4f35f62761174a9d09264635b8f7a, type: 2}
+  - {fileID: 11400000, guid: ac33f6438dea7724a89f5033dac33a82, type: 2}
+  - {fileID: 11400000, guid: 05c18ae0f0d046d498c8062fa0139cab, type: 2}
+  GraphSpawnMap: {fileID: 11400000, guid: 4db84bea345b8cd418053edfd0fe1171, type: 2}
+  FootstepIndex: {fileID: 11400000, guid: 8261bd09e2894f34492ae2413193d892, type: 2}
+  LuaScriptIncludes:
+  - {fileID: 271950057456261835, guid: cb4fa30353627494b80ad5ddac5197c2, type: 3}
+  JournalScript: {fileID: 0}
+  SpecialDays:
+    _keys: 
+    _values: []
+    _tempKey: 0
+    _tempValue: {fileID: 0}
