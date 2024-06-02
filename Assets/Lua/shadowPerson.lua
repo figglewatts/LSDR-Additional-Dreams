@@ -62,6 +62,10 @@ function advanceCurrentTarget()
     end
 end
 
+function clamp(min, value, max)
+    return math.max(min, math.min(max, value))
+end
+
 function start()
     -- called when this entity is created
     if IsDayEven() then
@@ -70,8 +74,15 @@ function start()
         return
     end
 
-    if Random.OneIn(3) then
-        -- one in 3 chance of not appearing
+    -- don't show on 1st day
+    if DreamSystem.DayNumber == 1 then
+        this.GameObject.SetActive(false)
+        return
+    end
+
+    -- appear more often as day number gets closer to and further than 40
+    local chanceToAppear = clamp(0, DreamSystem.DayNumber / 40, 1)
+    if Random.Float() < chanceToAppear then
         this.GameObject.SetActive(false)
         return
     end
