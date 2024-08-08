@@ -8,7 +8,7 @@ It was also used to make some tutorials.
 
 - Royalty3D (@royalty3D) - Textures
 - catmilk (@catmilk_catmilk) - Textures
-- sphere (@pinksand) - Textures
+- sphere (@pinkosand) - Textures
 - Bor (@PyotrAlexRoma) - Textures
 
 ## Prerequisites
