@@ -4,6 +4,13 @@ This is a mod for [LSD: Revamped](https://github.com/figglewatts/LSDRevamped) th
 
 It was also used to make some tutorials.
 
+## Credits
+
+- Royalty3D (@royalty3D) - Textures
+- catmilk (@catmilk_catmilk) - Textures
+- sphere (@pinksand) - Textures
+- Bor (@PyotrAlexRoma) - Textures
+
 ## Prerequisites
 
 - Unity 2021.3 is required to open the project

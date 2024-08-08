@@ -54,13 +54,13 @@ function interact()
     this.LogGraphContribution(3, 5)
 
     -- look towards and move towards the 2 targets in a loop
-    this.Action.Do(function() finishedRotating = this.LookTowards(target1, 50) end)
-               .Until(Condition.Custom(|| finishedRotating))
-               .Then(|| this.MoveTowards(target1, 1))
-               .Until(Condition.WaitForLinearMove(this.GameObject, target1))
-               .Then(function() finishedRotating = this.LookTowards(target2, 50) end)
+    this.Action.Do(function() finishedRotating = this.LookTowards(target2, 50) end)
                .Until(Condition.Custom(|| finishedRotating))
                .Then(|| this.MoveTowards(target2, 1))
                .Until(Condition.WaitForLinearMove(this.GameObject, target2))
+               .Then(function() finishedRotating = this.LookTowards(target1, 50) end)
+               .Until(Condition.Custom(|| finishedRotating))
+               .Then(|| this.MoveTowards(target1, 1))
+               .Until(Condition.WaitForLinearMove(this.GameObject, target1))
                .ThenLoop()
 end

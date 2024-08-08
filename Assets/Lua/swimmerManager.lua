@@ -89,7 +89,7 @@ function start()
         isSwimmer = true
     end
 
-    if Random.OneIn(1) then
+    if Random.OneIn(4) then
         -- one in 4 chance of being raised up
         raiseUp()
     end
